@@ -1,5 +1,9 @@
-package ua.goit;public class Main {
+package ua.goit;
+
+public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        SumCalculator sumCalculator=new SumCalculator();
+
+        System.out.println(sumCalculator.sum(10));
     }
 }
